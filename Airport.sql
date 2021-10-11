@@ -43,21 +43,7 @@ CREATE TABLE flights
 ################# POPULATE FRESH DATABASE #################
 ###########################################################
 
-INSERT INTO people (username, access_level, password) VALUES ("JasonDubs", 3, "asdf");
-INSERT INTO people (username, access_level, password) VALUES ("AndrewPete", 2, "asdf");
-INSERT INTO people (username, access_level, password) VALUES ("KylePlum", 1, "asdf");
 
-
-INSERT INTO flights (departure_city, arrival_city, flight_date, flight_time) VALUES ("New York", "Chicago", '2021-10-09', '09:00:00');
-INSERT INTO flights (departure_city, arrival_city, flight_date, flight_time) VALUES ("Los Angeles", "Portland", '2021-10-09', '09:00:00');
-INSERT INTO flights (departure_city, arrival_city, flight_date, flight_time) VALUES ("Kansas City", "Phoenix", '2021-10-09', '09:00:00');
-INSERT INTO flights (departure_city, arrival_city, flight_date, flight_time) VALUES ("Cedar Rapids", "Orlando", '2021-10-09', '09:00:00');
-INSERT INTO flights (departure_city, arrival_city, flight_date, flight_time) VALUES ("Houston", "Washington DC", '2021-10-09', '09:00:00');
-
-
-INSERT INTO tickets_people_flights (people_id, flight_id) VALUES (1, 1);
-INSERT INTO tickets_people_flights (people_id, flight_id) VALUES (2, 1);
-INSERT INTO tickets_people_flights (people_id, flight_id) VALUES (3, 2);
 
 Select * FROM  people ;
 Select * FROM  flights ;
